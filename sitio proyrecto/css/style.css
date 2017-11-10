@@ -1,0 +1,36 @@
+/* custom properties */
+:root {
+    --font-main: 'Raleway', sans-serif;
+    --font-size: 16px;
+    --bg-color: #171226;
+    --bg-color-opacity-9: rgba(23, 18, 38, .9);
+    --main-color: #0096D9;
+  }
+  
+  html {
+    font-size: var(--font-size);
+    font-family: var(--font-main);
+  }
+  
+  /* small <= 600px */
+  .Header { background-color: var(--bg-color); }
+  
+  .brand-logo img { max-height: 64px; }
+  
+  /* medium > 600px */
+  @media screen and (min-width: 37.5em) {
+  
+  }
+  
+  /* large > 992px */
+  @media screen and (min-width: 62em) {
+  
+  }
+  
+  /* extralarge > 1200px */
+  @media screen and (min-width: 75em) {
+  }
+
+  body{background-color: purple
+
+  }
